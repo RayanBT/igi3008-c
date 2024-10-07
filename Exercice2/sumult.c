@@ -10,6 +10,7 @@ void sumult(int a, int b, int *prod, int *som){
  int main()
  {
     int prod, som, a, b;
+    
     printf("Entre la valeur de a: ");
     scanf("%d",&a);
     printf("\nEntre la valeur de b: ");
