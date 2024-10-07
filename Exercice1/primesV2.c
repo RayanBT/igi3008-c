@@ -21,11 +21,13 @@ int isprime(int p) {
 }
 
 int main() {
-    int n = 10000;
-    if (isprime(n)) {
-        printf("%d est un nombre premier.\n", n);
-    } else {
-        printf("%d n'est pas un nombre premier.\n", n);
-    }
+    int n = 0;
+    for (int i = 0; i < 100; i++)
+    {
+        if (isprime(i)) {
+            n++;
+        }
+    }    
+    printf("%d\n", n);
     return 0;
 }
